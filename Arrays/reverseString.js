@@ -3,11 +3,11 @@
  * @return {void} Do not return anything, modify s in-place instead.
  */
 var reverseString = function(s) {
-    let arr = [...s] // transform string in an array
-    let arr2 = [] // create an empty string
+    let arr = [...s] 
+    let arr2 = [] 
 
-    for(i = arr.length-1; i >= 0; i--) { //loop from last index of the first array to the first
-        arr2.push(arr[i]) //add to the new array
+    for(i = arr.length-1; i >= 0; i--) { 
+        arr2.push(arr[i]) 
     }
     s = arr2;
     return s
