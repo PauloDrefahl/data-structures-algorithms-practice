@@ -14,7 +14,7 @@ var removeDuplicates = function(nums) {
             dups[nums[i]]++
         }
     }
-    return p1;
+    console.log(nums, dups, p1);
 };
 
 nums = [1,1,2];
