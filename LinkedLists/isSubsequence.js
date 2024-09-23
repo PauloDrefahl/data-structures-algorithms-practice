@@ -1,10 +1,10 @@
 function isSubsequence(s, t) {
-    let s = 0, t = 0;
-    while (t < t.length) {
-        if (s[s] === t[t]) {
-            s++;
+    let sp = 0, tp = 0;
+    while (tp < t.length) {
+        if (s[sp] === t[tp]) {
+            sp++;
         }
-        t++;
+        tp++;
     }
-    return s === s.length;
+    return sp === s.length;
 }
