@@ -23,7 +23,6 @@ class SinglyLinkedList{
     }
 
     transverse(){
-        while(this.tail.next)
     }
 
 }
