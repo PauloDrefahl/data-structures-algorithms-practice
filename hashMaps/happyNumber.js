@@ -20,5 +20,3 @@ var isHappy = function(n) {
 };
 
 
-
-isHappy(19);
