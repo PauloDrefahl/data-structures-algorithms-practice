@@ -1,3 +1,8 @@
+//questions 1: 
+/* basically you just need to start 3 pointers, one for the last index of each list and one for the end index of nums1 + nums2
+we start by comparing the last item of each and then inserting to the very end the largest item. decreasing them as we add to the end. 
+*/
+
 var merge = function(nums1, m, nums2, n) {
     let i = m - 1;
     let j = n - 1;
