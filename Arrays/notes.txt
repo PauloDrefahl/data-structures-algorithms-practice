@@ -1,0 +1,2 @@
+-  If they say to return something in place always remember to have a pointer that moves based on the values that should be added, this pointer should be 
+different than the iteration pointer that is initially going through the whole list.

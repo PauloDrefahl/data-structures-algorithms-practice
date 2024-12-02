@@ -1,4 +1,5 @@
-//this would work for a non sorted array
+//this would work for a non sorted array basically what you do is you add the dups into a hashmap, if any value is 1 or more it is a dupe and you can just proceed and not add to the list.
+//always remember to have a pointer that goes and writes the values that should be returned in place.
 var removeDuplicates = function(nums) {
     p1 = 0
     dups = {}
