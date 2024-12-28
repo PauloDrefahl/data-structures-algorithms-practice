@@ -11,3 +11,5 @@ class Solution(object):
                 count[nums[i]] = 1
         return max(count, key=count.get)
         
+
+print(Solution().majorityElement([3,2,3])) #3
