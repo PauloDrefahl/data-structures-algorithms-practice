@@ -85,3 +85,12 @@ def main():
     list1.transverse()
     
 main()
+
+class Car:
+    def __init__(self, model):
+        self.model = model
+    
+    def sound():
+        print("sound")
+
+class Honda : Car
