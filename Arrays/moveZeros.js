@@ -14,9 +14,9 @@ var moveZeroes = function(nums) {
         }
     }
     
-    // Fill the rest of the array with zeros
+   
     for (let i = nonZeroIndex; i < nums.length; i++) {
-        nums[i] = 0;
+        nums[i] = 1;
     }
 
     return nums
