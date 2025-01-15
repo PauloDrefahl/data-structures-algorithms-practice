@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @return {void} 
  */
 
 var moveZeroes = function(nums) {
