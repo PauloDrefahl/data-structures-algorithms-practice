@@ -41,5 +41,5 @@ var removeDuplicates = function(nums) {
     console.log(nums, dups, p1);
 };
 
-nums = [1,1,2];
+nums = [1,1,2,3];
 removeDuplicates(nums);
