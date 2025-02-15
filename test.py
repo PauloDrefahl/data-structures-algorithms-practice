@@ -5,7 +5,7 @@ import subprocess
 
 REPO_PATH = "/Users/paulodrefahl/Desktop/Projects/DS-ALG/data-structures-algorithms-practice"  # Replace with the path to your GitHub repository
 COMMIT_MESSAGE = "DS 2.3v"  # Set your commit message
-COMMIT_DATE = "2025-02-12T08:00:00"  # Format: YYYY-MM-DDTHH:MM:SS
+COMMIT_DATE = "2025-02-15T08:00:00"  # Format: YYYY-MM-DDTHH:MM:SS
 BRANCH_NAME = "main"  # Replace with your branch name if different
 
 def run_command(command, cwd=None):
